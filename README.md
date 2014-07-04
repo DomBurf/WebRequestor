@@ -20,7 +20,7 @@ To read the response from the request call the method GetResponse()
 
 Example usage
 
-WebRequestor request = new WebRequestor("http://www.myRequestDomain.com","POST“key1=value1&key2=value2”);
+WebRequestor request = new WebRequestor("http://www.myRequestDomain.com", "POST“, "key1=value1&key2=value2”);
 Console.WriteLine(request.GetResponse());
 
 An example class is included in the project. This can be found in the class file ExampleClientCode.cs
