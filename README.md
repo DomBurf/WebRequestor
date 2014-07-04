@@ -8,6 +8,7 @@ Usage
 
 To use the class simply create an instance of type WebRequestor and pass in the necessary parameters to the constructor.
 
+
 WebRequestor(string Url)
 
 WebRequestor(string Url, string method)
@@ -24,6 +25,7 @@ data – the data to send. This should be a string that consists of named key / 
 To read the response from the request call the method GetResponse()
 
 Example usage
+=============
 
 WebRequestor request = new WebRequestor("http://www.myRequestDomain.com", "POST“, "key1=value1&key2=value2”);
 Console.WriteLine(request.GetResponse());
